@@ -6,7 +6,7 @@ MAINTAINER Charles Chen <charlestg@yahoo.com>
 ENV GOROOT=/usr/local/go
 ENV GOPATH=/opt/go
 ENV PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-ENV GOVERSION=1.7.3
+ENV GOVERSION=1.11.2
 
 RUN yum -y update && yum -y upgrade && \
     yum -y install epel-release && \
